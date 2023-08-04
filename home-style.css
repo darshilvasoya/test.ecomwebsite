@@ -2,17 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500;600&family=Prompt:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ruda:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
 .foot1 {
   position: static;
-  bottom: 100;
+  bottom: 150px;
   width: 100%;
-  padding: 3px 0;
+  padding: 35px 1px;
   background-color: rgb(33,37,41);
   color: #fff;
   text-align: center;
   font-family: 'Geologica', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
+  align-items: center;
+  align-content: center;
+  padding-bottom: 15px;
+  border-radius: 10px;
+
 }
 .font1{
   font-family: 'Maven Pro', sans-serif;
@@ -102,12 +107,30 @@ width: 100%;
 height: auto;
 }
 
-
-
 .d-flex {
   padding: 10px;
 }
 .cart1
 {
   padding: 10px;
+}
+
+.c-1{
+  padding-top: 14px;
+  font-family: 'Capriola', sans-serif;
+}
+
+.viewm-1
+{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 50px;
+}
+.header {
+  padding-bottom: 0px;
+}
+.f-product
+{
+  padding-top: 8px;
+  padding-inline-end: 0px;
 }
