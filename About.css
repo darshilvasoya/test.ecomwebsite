@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&display=swap');
 .font4 {
   font-family: 'Raleway',sans-serif;
-  color: #000; /* Fallback for older browsers */
+  color: #000; 
   color: rgba(0, 0, 0, 0.6);
   font-size: 20px;
 

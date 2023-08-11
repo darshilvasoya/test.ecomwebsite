@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,500;0,800;1,700&family=Ysabeau+SC:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Cinzel&family=Raleway:wght@600;700&family=Unbounded:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz@1,6..96&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Libre+Barcode+39+Text&display=swap');
+body{ background-image: url("https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-virtual-background-_Tcjok-d9b4.jpg");
+  
+   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 30px;
+    background-size: 5000px;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .container-fluid
+  {
+    background-image: url("https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-virtual-background-_Tcjok-d9b4.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 30px;
+    background-size: 5000px;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    font-size: 5px;
+    font-family: 'Maven Pro', sans-serif;
+color: aqua;
+  }
+
+  .ft11
+  {
+    font-size: 40px;
+    font-family: 'Libre Barcode 39 Text', cursive;
+    color: rgba(46, 43, 43, 0.913);
+    align-content: center;
+  }
+
+  .ft12 {
+  color: #01010180; 
+  font-size: 40px;
+  font-family:'Share Tech Mono', monospace;
+}
