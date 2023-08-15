@@ -7,6 +7,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Borel&family=Libre+Barcode+39+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
 body{ background-image: url("https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-virtual-background-_Tcjok-d9b4.jpg");
   
    
@@ -34,7 +39,8 @@ body{ background-image: url("https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w
     background-size: cover;
     font-size: 5px;
     font-family: 'Maven Pro', sans-serif;
-color: aqua;
+    color: aqua;
+
   }
 
   .ft11
@@ -46,7 +52,165 @@ color: aqua;
   }
 
   .ft12 {
-  color: #01010180; 
+  color: #0101016c; 
   font-size: 40px;
   font-family:'Share Tech Mono', monospace;
 }
+
+.wrapper {
+  width: 400px;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+  font-family: 'Maven Pro', sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.h2222 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-family: 'Press Start 2P', cursive;
+  background-color: transparent;
+  font-size: 25px;
+  color: #010101c1;
+  background-color: transparent;
+  
+}
+
+.input-field {
+  position: relative;
+  border-bottom: 2px solid #ccc;
+  margin: 15px 0;
+}
+
+.input-field label {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  color: #0000006e;
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.15s ease;
+  font-family: 'Ruda', sans-serif;
+}
+
+.input-field input {
+  width: 100%;
+  height: 40px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #000000;
+  font-family: 'Prompt', sans-serif;
+
+}
+
+.input-field input:focus~label,
+.input-field input:valid~label {
+  font-size: 0.8rem;
+  top: 10px;
+  transform: translateY(-120%);
+  font-family: 'Prompt', sans-serif;
+}
+
+.forget {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 0 35px 0;
+  color: #62616197;
+  font-family: 'Prompt', sans-serif;
+}
+
+#remember {
+  accent-color: #233dbeda;
+  font-family: 'Prompt', sans-serif;
+}
+
+.forget label {
+  display: flex;
+  align-items: center;
+  font-family: 'Prompt', sans-serif;
+}
+
+.forget label p {
+  margin-left: 8px;
+  font-family: 'Prompt', sans-serif;
+}
+.wrapper a {
+  color: #007912ca;
+  text-decoration: none;
+  font-family: 'Prompt', sans-serif;
+}
+.wrapper a:hover {
+  text-decoration: underline;
+}
+button {
+  background: #00000062;
+  color: #000;
+  font-weight: 600;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 16px;
+  border: 2px solid transparent;
+  transition: 0.3s ease;
+  font-family: 'Prompt', sans-serif;
+}
+
+button:hover {
+  color: #00660fcb;
+  border-color: #008814cb;
+  background: rgba(255, 255, 255, 0.15);
+  font-family: 'Prompt', sans-serif;
+}
+.register {
+  text-align: center;
+  margin-top: 30px;
+  color: #c91d1dcb;
+  font-family: 'Prompt', sans-serif;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  align-content: center
+}
+
+body {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 60px;
+  margin: 1000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
