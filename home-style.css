@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ruda:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 .foot1 {
   position: static;
   bottom: 150px;
@@ -134,4 +135,135 @@ height: auto;
 {
   padding-top: 8px;
   padding-inline-end: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.login_bar {
+	width: 300px;
+	height: 50px;
+	background: white;
+	border-radius: 10px;
+	top: 50%;
+	position: relative;
+  	z-index: 1;
+	overflow: hidden;
+	margin: auto;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.login {
+	background: transparent;
+	position: absolute;
+	height: 100%;
+	width: 190px;
+	padding-left: 10px;
+	text-align: left;
+	line-height: 50px;
+	vertical-align: middle;
+	align-items: center;
+	align-content: center;
+	z-index: 10;
+	-webkit-transition: transform 0.2s ease-in-out 0s;
+	   -moz-transition: transform 0.2s ease-in-out 0s;
+	     -o-transition: transform 0.2s ease-in-out 0s;
+	        transition: transform 0.2s ease-in-out 0s;
+}
+
+.login_active {
+	-webkit-transform: translateX(300px);
+	   -moz-transform: translateX(300px);
+	    -ms-transform: translateX(300px);
+	     -o-transform: translateX(300px);
+	        transform: translateX(300px);
+}
+
+.subscribe_button:hover{
+	background-color: #222A33;
+	cursor:pointer;
+}
+
+.subscribe_button {
+	background: #171D23;
+	position: absolute;
+	top: -50px;
+	left: 200px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	height: 150px;
+	width: 100px;
+	text-align: center;
+	line-height: 150px;
+	vertical-align: middle;	
+	color: white;
+	-webkit-transition: transform 0.5s ease 0s;
+	   -moz-transition: transform 0.5s ease 0s;
+	     -o-transition: transform 0.5s ease 0s;
+	        transition: transform 0.5s ease 0s;
+}
+
+.subscribe_button_active{
+	-webkit-transform: translateY(50px);
+	   -moz-transform: translateY(50px);
+	    -ms-transform: translateY(50px);
+	     -o-transform: translateY(50px);
+	        transform: translateY(50px);
+}
+
+.subscribing{
+	background-image: url("https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-virtual-background-_Tcjok-d9b4.jpg");
+	height: 100%;
+	width: 300px;
+	z-index: 5;
+	position: absolute;
+	left:-300px;
+	display: inline-block;
+	background-position: inherit;
+	-webkit-transition: transform 1s ease 0s ;
+	   -moz-transition: transform 1s ease 0s ;
+	     -o-transition: transform 1s ease 0s ;
+	        transition: transform 1s ease 0s ;
+}
+
+.subscribing_active {
+	-webkit-transform: translateX(300px);
+	   -moz-transform: translateX(300px);
+	    -ms-transform: translateX(300px);
+	     -o-transform: translateX(300px);
+	        transform: translateX(300px);
+}
+
+.thanks{
+	background: transparent;
+	height: 100%;
+	width: 300px;
+	z-index: 5;
+	text-align: left;
+	line-height: 50px;
+	vertical-align: middle;
+	padding-left: 10px;
+	position: absolute;
+	top:50px;
+	display: inline-block;
+	-webkit-transition: transform 0.5s ease 0s ;
+	   -moz-transition: transform 0.5s ease 0s ;
+	     -o-transition: transform 0.5s ease 0s ;
+	        transition: transform 0.5s ease 0s ;
+}
+
+.thanks_active {
+	-webkit-transform: translateY(-50px);
+	   -moz-transform: translateY(-50px);
+	    -ms-transform: translateY(-50px);
+	     -o-transform: translateY(-50px);
+	        transform: translateY(-50px);
 }

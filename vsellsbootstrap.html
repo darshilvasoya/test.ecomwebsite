@@ -28,7 +28,7 @@
   <nav class="navbar bg-body-tertiary">
       <div class="container-fluid">
         <div class="font1">
-        <a class="navbar-brand" href="" target="_blank">
+        <a class="navbar-brand" href="" target="_parent">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/a/aa/V-logo.svg"
             alt="Logo" width="26" height="0PX"
@@ -293,12 +293,45 @@
             </div>
             </div>
 
+            <div class="container">
+              <div class="login_bar">
+                <span class="login">vsells@gmail.com</span>
+                <span class="subscribe_button" onclick="subscribeOnClick()">subscribe</span>
+                <span class="subscribing"></span>
+                <span class="thanks"> Thank you. You have been subscribed</span>
+              </div>
+            </div>
+
     <footer class="foot1" style="max-width: 95rem;">
       &copy; 2023 Vsells.in, All Rights Reserved.
       <br>Powerd by itz.dvx(Darshil)
       <p><a href="darshilvy@gmail.com">darshilvy@gmail.com</a></p>
     </footer>
-      
+    <script>
+    var subscribe_button = document.querySelector(".subscribe_button");
+
+subscribe_button.addEventListener('click', function(){
+	var subscribing = document.querySelector(".subscribing");
+	var thanks = document.querySelector(".thanks");
+	var login = document.querySelector(".login");
+
+	subscribing.classList.add("subscribing_active");
+	subscribe_button.classList.add("subscribe_button_active");
+	setTimeout(function(){
+		login.classList.add("login_active");
+	}, 1200);
+	setTimeout(function(){
+		thanks.classList.add("thanks_active");
+	}, 1400);
+
+	setTimeout(function(){
+		thanks.classList.remove("thanks_active");
+		login.classList.remove("login_active");
+		subscribing.classList.remove("subscribing_active");
+		subscribe_button.classList.remove("subscribe_button_active");
+	}, 4000);
+});
+      </script>
       <script>
           var slideIndex = 2;
           showSlides();
