@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,500;0,800;1,700&family=Ysabeau+SC:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Cinzel&family=Raleway:wght@600;700&family=Unbounded:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz@1,6..96&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Libre+Barcode+39+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+
+
+.form-gap {
+    
+    background-color: transparent;
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+  margin-right: auto;
+  width:70%; 
+  
+}
+
+.row
+{
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+body{ background-image: url("https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-virtual-background-_Tcjok-d9b4.jpg");
+  
+   text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 30px;
+    background-size: 5000px;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.input-group input {
+    background-color: transparent;
+}
+
+.input-group-addon {
+    background-color: transparent;
+}
+
+.form-group {
+    padding-top: 25px;
+    background-color: transparent;
+    background: transparent;
+    color: transparent;
+}
+
+.input-group input {
+    border-color: rgb(53, 53, 53);
+}
+
+  
+  

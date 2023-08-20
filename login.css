@@ -150,7 +150,7 @@ form {
   font-family: 'Prompt', sans-serif;
 }
 .wrapper a {
-  color: #007912ca;
+  color: #00420aca;
   text-decoration: none;
   font-family: 'Prompt', sans-serif;
 }
@@ -171,8 +171,8 @@ button {
 }
 
 button:hover {
-  color: #00660fcb;
-  border-color: #008814cb;
+  color: #004d0bcb;
+  border-color: #005c0ecb;
   background: rgba(255, 255, 255, 0.15);
   font-family: 'Krona One', sans-serif;
   transition-delay: 10px;
@@ -205,6 +205,10 @@ body {
   padding: 60px;
   margin: 1000px;
 }
+
+
+
+
 
 
 
