@@ -101,3 +101,26 @@ body{ background-image: url("https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w
   background-position: center;
   background-size: cover;
 }
+
+.section {
+  background: #ffffff;
+  color: #383838;
+  font-weight: 600;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 16px;
+  border: 2px solid transparent;
+  transition: 0.3s ease;
+  font-family: 'Prompt', sans-serif;
+}
+
+.section:hover {
+  color: #00600ecb;
+  border-color: #00a719cb;
+  background: rgba(255, 255, 255, 0.15);
+  font-family: 'Krona One', sans-serif;
+  transition-delay: 10px;
+  transition-duration: 100ms;
+  transform-style: preserve-3d ;
+}
