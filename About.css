@@ -124,3 +124,11 @@ body{ background-image: url("https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w
   transition-duration: 100ms;
   transform-style: preserve-3d ;
 }
+
+.bi-bi-apple{
+  padding-bottom: 5px;
+}
+
+.bi-bi-check-circle-fill {
+  padding-bottom: 1px;
+}
