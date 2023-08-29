@@ -42,7 +42,7 @@ body{ background-image: url("https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w
     font-size: 5px;
     font-family: 'Maven Pro', sans-serif;
     color: aqua;
-
+    
   }
 
   .ft11
@@ -51,6 +51,7 @@ body{ background-image: url("https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w
     font-family: 'Libre Barcode 39 Text', cursive;
     color: rgba(46, 43, 43, 0.913);
     align-content: center;
+    
   }
 
   .ft12 {
@@ -68,11 +69,13 @@ body{ background-image: url("https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w
   backdrop-filter: blur(9px);
   -webkit-backdrop-filter: blur(9px);
   font-family: 'Maven Pro', sans-serif;
+  box-shadow: 0px 0px 3000000px 0px #ffffff;
 }
 
 form {
   display: flex;
   flex-direction: column;
+  
 }
 
 .h2222 {
