@@ -132,3 +132,17 @@ body{ background-image: url("https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w
 .bi-bi-check-circle-fill {
   padding-bottom: 1px;
 }
+
+.nav-link {
+  text-align: center;
+  
+}
+
+.ii img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+   padding-bottom: 10px;
+}
