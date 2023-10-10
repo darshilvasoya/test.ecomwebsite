@@ -13,7 +13,7 @@ body {
   display: grid;
   justify-content: center;
   align-items: center;
-  /* background-image: url(https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); */
+  /* background-image: url(https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); */ */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -80,7 +80,7 @@ section {
 .contact-info-icon {
   height: 70px;
   width: 70px;
-  background-color: #fff;
+  background-color: #ffffff;
   text-align: center;
   border-radius: 50%;
 }
@@ -88,6 +88,7 @@ section {
 .contact-info-icon i {
   font-size: 30px;
   line-height: 70px;
+  color: #202020;
 }
 
 .contact-info-content {

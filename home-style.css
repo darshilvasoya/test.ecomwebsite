@@ -3,7 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Ruda:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
 .foot1 {
   position: static;
   bottom: 150px;
@@ -138,16 +143,6 @@ height: auto;
   padding-inline-end: 0px;
 }
 
-
-
-
-
-
-
-
-
-
-
 .login_bar {
 	width: 300px;
 	height: 50px;
@@ -267,4 +262,8 @@ height: auto;
 	    -ms-transform: translateY(-50px);
 	     -o-transform: translateY(-50px);
 	        transform: translateY(-50px);
+}
+
+.h4 {
+	font-size: 10px;
 }

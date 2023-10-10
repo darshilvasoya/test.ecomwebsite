@@ -135,7 +135,7 @@ body{ background-image: url("https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w
 
 .nav-link {
   text-align: center;
-  
+  display: block;
 }
 
 .ii img
@@ -146,3 +146,5 @@ body{ background-image: url("https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w
   width: 50px;
    padding-bottom: 10px;
 }
+
+a {}
